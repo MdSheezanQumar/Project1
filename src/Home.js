@@ -127,7 +127,7 @@ function Home(){
                <div className="col-sm-12">
                 <h2 style={{textAlign:'center'}}>{cit.name}</h2>
                 <h5>{cit.spec}</h5>
-                <button type="button" class="btn btn-outline-info"><Link style={{textDecoration:'none',color:'black'}} to={`/details/${cit.id}?name=${cit.name}`}>{cit.des}</Link></button>
+                <button type="button" class="btn btn-info"><Link style={{textDecoration:'none',color:'black'}} to={`/details/${cit.id}?name=${cit.name}`}>{cit.des}</Link></button>
                 </div>
                 </div>
             </div>

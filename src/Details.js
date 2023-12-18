@@ -376,17 +376,16 @@ function Details(){
          </div>
 
          <div className="row">
-            <div className="col-sm-6 px-5 py-3">
-                <div className="row">
-                    <div className="col-sm">
-                        <img src={filtcity.imgsrc2} className="img-fluid" alt="img3"></img>
-                    </div>
-                  <div className="col-sm-6">
-                  <img src={filtcity.imgsrc3} className="img-fluid" alt="img4"></img>
-                    </div>  
-                </div>
-            </div>
+            <diV className='col-sm-6 py-5'>
+               <diV className='row '>
+               <img src={filtcity.imgsrc2}   alt="img3" className="img-fluid" style={{height:'300px'}}></img>
+               </diV>
+               <diV className='row'>
+               <img src={filtcity.imgsrc3}  alt="img4" className="img-fluid" style={{height:'300px'}}></img>
+               </diV>
 
+
+            </diV>
             <div className="col-sm-6 py-5">
                 <h3 style={{display:'flex',justifyItems:'center',justifyContent:'center',color:'blueviolet'}}>{filtcity.par1}</h3>
                 
