@@ -6,7 +6,7 @@ function Navbar(){
     return(
       <div className='container-fluid'>
       <div className='row ' >
-          <div className='d-flex nav1 ' style={{backgroundColor: '#e3f2fd'}}>
+          <div className='d-flex nav1 ' >
            
               <img src={citytour} className='img-fluid my-1' style={{height:'80px'}}></img>
                     
@@ -14,7 +14,7 @@ function Navbar(){
               
                   
                      <li className="nav-item">
-                    <Link className="nav-link " to='/'>Home</Link>
+                    <Link className="nav-link " to='/Project1'>Home</Link>
                      </li>
                      <li className="nav-item">
                      <Link className="nav-link" to="/about">About</Link>
@@ -23,7 +23,7 @@ function Navbar(){
                      <Link className="nav-link" to='/holiday'>Holidays</Link>
                      </li>
                      <li className="nav-item">
-                     <Link className="nav-link" href="#">Details</Link>
+                     <Link className="nav-link" >Details</Link>
                      </li>
                      
               </ul>
