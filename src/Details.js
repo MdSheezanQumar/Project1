@@ -359,7 +359,7 @@ function Details(){
  <div className="container-fluid">
     <div className="row">
         <div className="col-sm px-5 py-5" style={{display:'flex',alignItems:'center',justifyContent:'center' }}>
-           <img src={filtcity.imgsrc} alt="img2" style={{height:280}} ></img>
+           <img src={filtcity.imgsrc} alt="img2" style={{height:280}}  className="img-fluid"></img>
             </div> 
               </div>
 
