@@ -6,7 +6,7 @@ function Tours(){
         <div className="container-fluid">
     <div className="row">
         <div className="col-sm px-2 py-5" style={{display:'flex',justifyItems:'center',justifyContent:'center'}}>
-           <img className="img3" src="https://tse3.mm.bing.net/th?id=OIP.I5D_5DLuS5SIDjAM5HPiCgHaEK&pid=Api&P=0&h=700" alt="tour"/>
+           <img className="img3  img-fluid" src="https://tse3.mm.bing.net/th?id=OIP.I5D_5DLuS5SIDjAM5HPiCgHaEK&pid=Api&P=0&h=700" alt="tour"/>
 
         </div>
    </div>

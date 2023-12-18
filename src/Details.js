@@ -379,10 +379,10 @@ function Details(){
             <div className="col-sm-6 px-5 py-3">
                 <div className="row">
                     <div className="col-sm">
-                        <img src={filtcity.imgsrc2} alt="img3"></img>
+                        <img src={filtcity.imgsrc2} className="img-fluid" alt="img3"></img>
                     </div>
                   <div className="col-sm-6">
-                  <img src={filtcity.imgsrc3} alt="img4"></img>
+                  <img src={filtcity.imgsrc3} className="img-fluid" alt="img4"></img>
                     </div>  
                 </div>
             </div>
@@ -430,16 +430,16 @@ function Details(){
 
 <div className="carousel-inner">
   <div className="carousel-item active">
-    <img src={filtcity.imgsrc4}   alt="img4" style={{width:600}} className="d-block"  />
+    <img src={filtcity.imgsrc4}   alt="img4" style={{width:600}} className="img-fluid d-block"  />
   </div>
   <div className="carousel-item">
-    <img src={filtcity.imgsrc5} alt="img5" style={{width:600}} className="d-block" />
+    <img src={filtcity.imgsrc5} alt="img5" style={{width:600}} className="img-fluid d-block" />
   </div>
   <div className="carousel-item">
-    <img src={filtcity.imgsrc6} alt="img6" style={{width:600}} className="d-block" />
+    <img src={filtcity.imgsrc6} alt="img6" style={{width:600}} className="img-fluid d-block" />
   </div>
   <div className="carousel-item">
-    <img src={filtcity.imgsrc7} alt="img6" style={{width:600}} className="d-block" />
+    <img src={filtcity.imgsrc7} alt="img6" style={{width:600}} className="img-fluid d-block" />
   </div>
 </div>
 

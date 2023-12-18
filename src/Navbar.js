@@ -11,8 +11,6 @@ function Navbar(){
               <img src={citytour} className='img-fluid my-1' style={{height:'80px'}}></img>
                     
               <ul className="nav my-3">
-              
-                  
                      <li className="nav-item">
                     <Link className="nav-link " to='/Project1'>Home</Link>
                      </li>
@@ -21,15 +19,11 @@ function Navbar(){
                      </li>
                      <li className="nav-item">
                      <Link className="nav-link" to='/holiday'>Holidays</Link>
-                     </li>
-                     <li className="nav-item">
-                     <Link className="nav-link" >Details</Link>
-                     </li>
-                     
+                     </li>    
               </ul>
-          </div>
-      </div>
-  </div>
+           </div>
+       </div>
+       </div>
     );
 
 }
